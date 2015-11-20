@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+	xmlns:svg="http://www.w3.org/2000/svg" 
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:label="http://www.4d.com/2014/label"
+ 	id="svg"
+	version="1.0"
+	width="1228"
+	height="1184" 
+	viewport-fill="none"
+	viewport-fill-opacity="0">
+ 
+	<defs
+		id="defs">
+		<filter id="filter-gaussian-blur" >
+			<feGaussianBlur stdDeviation="4" />
+		</filter>
+		<filter id="filter-saturate" >
+			<feColorMatrix type="saturate" values="3" />
+		</filter>
+		<filter id="filter-hue-rotate" >
+			<feColorMatrix type="hueRotate" values="90" />
+		</filter>
+		<filter id="filter-sepia" >
+			<feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
+		</filter>				
+	</defs>
+ 
+	<image
+		id="image"
+		width="1268"
+		height="1224"
+		x="0"
+		y="0"
+		transform="translate(-20,-20)"
+		preserveAspectRatio="xMidYMid"
+		filter="url(#filter-gaussian-blur)"
+		opacity="0.5"
+		xlink:href="Globus_65.tif" />	
+
+</svg>
